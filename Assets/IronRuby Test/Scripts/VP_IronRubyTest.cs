@@ -23,7 +23,7 @@ namespace VirtualPhenix.IrnRuby
         void Start()
         {
             m_scriptFolder = Application.dataPath + "/Ruby/Scripts/";
-            m_scriptPath = m_scriptFolder + "CrimsonMarch_PDA.rb";
+            m_scriptPath = m_scriptFolder + "Test.rb";
 
             CallClassMethod();
         }
@@ -49,8 +49,8 @@ namespace VirtualPhenix.IrnRuby
             }
 
             dynamic ruby = engine.Runtime.Globals;
-            dynamic script = ruby.PokeDispositivoAvanzado.@new();
-            Debug.Log(script.pbStartScene2());
+            dynamic script = ruby.Test.@new();
+            Debug.Log(script.pbPlus(1, 100));
         }
 
         public void CallClassMethod()
@@ -63,8 +63,8 @@ namespace VirtualPhenix.IrnRuby
             compiled.Execute(scope);
 
             dynamic ruby = engine.Runtime.Globals;
-            dynamic script = ruby.PokeDispositivoAvanzado.@new();
-            Debug.Log(script.pbStartScene2());
+            dynamic script = ruby.Test.@new();
+            Debug.Log(script.pbPlus(1, 100));
         }
 
         public void CheckParameters()

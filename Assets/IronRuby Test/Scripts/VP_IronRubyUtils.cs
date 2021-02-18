@@ -5,8 +5,8 @@ using IronRuby;
 
 namespace VirtualPhenix.IrnRuby
 {
-    public class VP_IronRubyUtils
+    public static class VP_IronRubyUtils
     {
-        
+       
     }
 }
