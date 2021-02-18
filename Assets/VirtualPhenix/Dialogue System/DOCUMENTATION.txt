@@ -1,0 +1,14 @@
+/*===========================================================================================================================================*\
+/*											Phoenix Dialogue System																			 *\
+/*===========================================================================================================================================*\
+
+** The lowest Unity version supported is 2018.4.21 (LTS) as it is the one I use for develop the asset. Versions below that can create issues **
+
+ONLINE DOCUMENTATION: https://docs.google.com/document/d/1Q1njN2LzWUWTcxGFwa2KSw8VyTfazJKD0PqIhQ4kqcI/edit?usp=sharing
+
+##################################################################################################################################################################
+-- Any doubts --
+##################################################################################################################################################################
+
+Please, contact me by email: manuelrodriguezmatesanz@gmail.com or by my website: http://manuelrodriguezmatesanz.com
+We can have a direct support chat on discord: Manurocker95#6307

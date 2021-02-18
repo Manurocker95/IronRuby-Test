@@ -1,0 +1,537 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3b21d1c05d479f49912ede386bdf066, type: 3}
+  m_Name: Fade Referencer
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 3097ba7f021e5074a9b3f27eb52c5df8, type: 2}
+    - {fileID: 11400000, guid: 6c6eab9801416ce408e7c777584f9696, type: 2}
+    - {fileID: 11400000, guid: a6a7998733b5be74e909e9e63cd740ab, type: 2}
+    - {fileID: 11400000, guid: fac2e5d6ab64d8f4f8ce63addb9e852b, type: 2}
+    - {fileID: 11400000, guid: 57e80a1d91b7d2844a84debc7474b28b, type: 2}
+    - {fileID: 11400000, guid: b802616604a3dff4188ecd584c60c0f9, type: 2}
+    - {fileID: 11400000, guid: e9550d1841b59cd4087a1b46d0bb0fcf, type: 2}
+    - {fileID: 11400000, guid: 5eeb19aa37dd8c9438a7cf578755dac0, type: 2}
+    - {fileID: 11400000, guid: c1a6b9eb4b57efa42b1b01d260675523, type: 2}
+    - {fileID: 11400000, guid: 2340b89aeebb17649ac19abc942ee6da, type: 2}
+    - {fileID: 11400000, guid: cd93405655f4b7149a85169e1d79e784, type: 2}
+    - {fileID: 11400000, guid: c6fb3bb173b38684f9ea3f294d03f4d8, type: 2}
+    - {fileID: 11400000, guid: 771cdab4ce0582c45b3e1a57fc4228d1, type: 2}
+    - {fileID: 11400000, guid: 1ddfd9f56ad47a84f8ac5d4e7ad18517, type: 2}
+    - {fileID: 11400000, guid: 43185fe5e961acf4fb70f1bf10446074, type: 2}
+    - {fileID: 11400000, guid: eb5ac943ca6ce6f4c8e3a4a66a694539, type: 2}
+    - {fileID: 11400000, guid: 5b25740dc48a80a468eef3b7073db5a7, type: 2}
+    - {fileID: 11400000, guid: b647ae1884edc614ea0e856bc67106d4, type: 2}
+    - {fileID: 11400000, guid: 4b34ac737b020e84a9aadf95c7f7c045, type: 2}
+    - {fileID: 11400000, guid: d0ded71037b3fef4c8341404a1fa3184, type: 2}
+    - {fileID: 11400000, guid: 5626eeac220de2a46ace5bc98e93dac9, type: 2}
+    - {fileID: 11400000, guid: 98856e909201e264ba41c6d156ecc699, type: 2}
+    - {fileID: 11400000, guid: 45fdc3efeb964e940997aa04b5038dd5, type: 2}
+    - {fileID: 11400000, guid: 4bcca23b435048b4286ff0e02bd3b114, type: 2}
+    - {fileID: 11400000, guid: 9d40257c213611f4280b263ff60190a8, type: 2}
+    - {fileID: 11400000, guid: a13ffcc61c2604640b75c267c947f538, type: 2}
+    - {fileID: 11400000, guid: 3566fac58a6c6f04fbb715a82572fbb1, type: 2}
+    - {fileID: 11400000, guid: 2f7fe5f29064ab74e9acc3487c23445f, type: 2}
+    - {fileID: 11400000, guid: 057dde0f65459d2489a2adb1a101fdb3, type: 2}
+    - {fileID: 11400000, guid: 78f9be0cea1e6654d82e601374fe3f86, type: 2}
+    - {fileID: 11400000, guid: 3dfd2fb26bf0fbd4faf51a23b13e9e94, type: 2}
+    - {fileID: 11400000, guid: 8c51b07aac5a61c44ba2a83978952078, type: 2}
+    - {fileID: 11400000, guid: ffac4943dcb96ea4e926e4386570b2c9, type: 2}
+    - {fileID: 11400000, guid: e510ba2070e310b4f9f586fd869270e7, type: 2}
+    - {fileID: 11400000, guid: db6bb820b25862c4da22188b83c90e85, type: 2}
+    - {fileID: 11400000, guid: 1e939b2d43274ad4a8b43a6ead9a153d, type: 2}
+    - {fileID: 11400000, guid: 8fc38bf53c3f4224f95747284c0c5ced, type: 2}
+    - {fileID: 11400000, guid: c17e968b13cdf28429b9f272df436979, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_resources
+      Entry: 7
+      Data: 0|VirtualPhenix.VP_SerializableDictionary`2[[System.String, mscorlib],[VirtualPhenix.Fade.VP_FadeEffect,
+        Assembly-CSharp]], Assembly-CSharp
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 38
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: FADE
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BAND_WIPE
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BAND_WIPE_VERTICAL
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BARN_DOOR
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BARN_DOOR_OPEN
+    - Name: $v
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BARN_DOOR_OPEN_VERTICAL
+    - Name: $v
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BARN_DOOR_SLICE
+    - Name: $v
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BARN_DOOR_STRETCH
+    - Name: $v
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BATTLE_WIPE
+    - Name: $v
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BATTLE_WIPE_EXTREME
+    - Name: $v
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BATTLE_WIPE_WIDE
+    - Name: $v
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BLINDS
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BLINDS_HORIZONTAL
+    - Name: $v
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: BLUR
+    - Name: $v
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CENTRE_WIPE_HORIZONTAL
+    - Name: $v
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CENTRE_WIPE_VERTICAL
+    - Name: $v
+      Entry: 10
+      Data: 15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CLOCK
+    - Name: $v
+      Entry: 10
+      Data: 16
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CLOCK_INVERTED
+    - Name: $v
+      Entry: 10
+      Data: 17
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: CORNER_STAR
+    - Name: $v
+      Entry: 10
+      Data: 18
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: HEXAGON
+    - Name: $v
+      Entry: 10
+      Data: 19
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: HEXAGON_INVERTED
+    - Name: $v
+      Entry: 10
+      Data: 20
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: PENTAGON
+    - Name: $v
+      Entry: 10
+      Data: 21
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: PENTAGON_INVERTED
+    - Name: $v
+      Entry: 10
+      Data: 22
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: PINCH
+    - Name: $v
+      Entry: 10
+      Data: 23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: PINCH_OFF_CENTRE
+    - Name: $v
+      Entry: 10
+      Data: 24
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: RADIAL
+    - Name: $v
+      Entry: 10
+      Data: 25
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: RADIAL_INVERTED
+    - Name: $v
+      Entry: 10
+      Data: 26
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: RUBICKS
+    - Name: $v
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: RUBICKS_HORIZONTAL
+    - Name: $v
+      Entry: 10
+      Data: 28
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: RUBICKS_VERTICAL
+    - Name: $v
+      Entry: 10
+      Data: 29
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: STARS5
+    - Name: $v
+      Entry: 10
+      Data: 30
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: STARS6
+    - Name: $v
+      Entry: 10
+      Data: 31
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: STARS7
+    - Name: $v
+      Entry: 10
+      Data: 32
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: STARS_INVERTED
+    - Name: $v
+      Entry: 10
+      Data: 33
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ZOOM
+    - Name: $v
+      Entry: 10
+      Data: 34
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ZOOM_BIG
+    - Name: $v
+      Entry: 10
+      Data: 35
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ZOOM_CUSTOM
+    - Name: $v
+      Entry: 10
+      Data: 36
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: ZOOM_SMALL
+    - Name: $v
+      Entry: 10
+      Data: 37
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

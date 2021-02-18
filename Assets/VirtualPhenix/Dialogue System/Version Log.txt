@@ -1,0 +1,148 @@
+-- Current version: 1.3.0 --
+
+--------------------
+	1.0.0
+---------------------
+
+- Dialogue Editor
+- Custom Audio Manager
+- Event Manager 
+- Localization Manager and CSV Parsing for multilanguage
+- Dialogue node
+- Event Node
+- Branch Node
+- Wait node
+- Audio node
+- Position node
+- examples for regular conversations
+- arrow for bubbles
+
+--------------------
+	1.1.0
+---------------------
+
+- Options
+- Callbacks when Start, Text Shown, Node Completed, Ended full dialog
+- Fixes
+
+--------------------
+	1.2.0
+---------------------
+
+- Bug fixes
+- Some improvements
+- Text Mesh pro auto import on 2019
+
+--------------------
+	1.3.0
+---------------------
+
+- Bug fixes
+- Auto-translation
+- Localization Window
+- Skip and log register feature
+- Log with current conversation
+- Easy to use example scripts
+- No more warnings!
+
+--------------------
+	1.3.1
+---------------------
+
+- JSON and XML parsing
+- PlayMaker support
+- Fix canvas prefab
+
+--------------------
+	1.3.2
+---------------------
+
+- A few more example scenes
+
+--------------------
+	1.3.3
+---------------------
+
+- Branches now work with Graph variables, Global Variables and Serialized Conditions
+- Variable Editor Window
+- Bug Fixes
+
+--------------------
+	1.3.4
+---------------------
+
+- Set Variable Node for setting variables directly from graph
+- Icons showing in inspector if "ShowIcon" is toggled in scripts
+- Added Simple Dialogue Initializer and demo scene
+- More demos scenes
+- DialogMessageInput for direct input handling
+
+--------------------
+	1.3.5
+---------------------
+
+- Subdivide text in multiple subtexts with defined number of characters
+- Graph variables added to text. 
+- Variables with different types can share same
+- Do Tween animations
+- Character data needs to set alpha to text color (important)
+- Fixed some bugs
+- Text can be hidden when options are displayed (like solodarity game)
+
+--------------------
+	1.3.6
+---------------------
+
+- Graph presets for common properties in dialogue nodes.
+- Tell-tale games like automatic answers if the player doesn't select an answer.
+- Select an Answer by specific keys. 
+- Scene with progress bar for auto-answer and dialogues (audio), without  background.
+
+--------------------
+	1.3.7
+---------------------
+
+- Can choose number between number parameters
+- Choose number node
+- Debug Log node - Can receive input parameter
+- Cancel supported for answer and choose number
+- You need to download externally serialized dictionaries
+
+--------------------
+	1.3.8
+---------------------
+
+- Made manual fading if DoTween Pro is not desired
+
+--------------------
+	1.3.9-11
+---------------------
+
+- 2018.4.21 (LTS) + is required now
+- 3D Canvas example
+- Text Animator support (need Scripting Define symbol: USE_TEXT_ANIMATOR)
+- You can now customize fade animations with do tween (at least free is required)
+- Emotions can be displayed with tag <emotion>
+- Added trimming text by words
+-Fixed crash with serialized condition callbacks
+- Fixed some bugs
+- dialog button is now set in the EventSystem when showing dialog
+- More scenes and documentation update
+
+--------------------
+	1.3.12
+---------------------
+
+- Documentation updated
+- Everything is now extensible if you want to override any method
+- Added support for Phoenix Tools
+- Custom solution for serializable dictionaries (Serializable Dictionaries is no longer needed, but can be used)
+- Added support for multiple dialogues with same or different charts at the same time
+- Added platform dependent support for odin, more effective coroutines, Serializable Dictionaries Lite, Fade Effect and Scriptable object database
+- Built-in for serialized dictionaries 
+- Added more support for More effective Coroutines
+- Simplified the workflow with Scriptable Objects
+- Context menu in the Editor Window itself (right-click on the window).
+- Added custom Singleton creator with VP_Monobehaviour
+- Changed delegates to UnityEvents and UnityActions so the user can set them from inspector
+- You can translate texts with runtime set parameters (_INTL or any VP_Monobehaviour)

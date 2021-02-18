@@ -1,0 +1,433 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f07413b313a444eb0b53a97adc5bb0, type: 3}
+  m_Name: SimpleScripts
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 114955701731707656}
+  - {fileID: 114822283277742646}
+  - {fileID: 114007593792046316}
+  windowName: Dialog Editor
+  m_chart: {fileID: 0}
+  m_floatConditionData: {fileID: 0}
+  m_stringConditionData: {fileID: 0}
+  m_intConditionData: {fileID: 0}
+  m_gameObjectConditionData: {fileID: 0}
+  m_monobehaviourConditionData: {fileID: 0}
+  m_boolConditionData: {fileID: 0}
+  m_graphVariables:
+    m_boolVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 1
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 1
+      _keyValues:
+      - var1
+      - var2
+      _keys:
+      - var1
+      - var2
+      _values: 0100
+    m_intVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: 
+    m_floatVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: []
+    m_doubleVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: []
+    m_stringVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: []
+    m_gameObjectVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: []
+    m_unityObjectVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: []
+--- !u!114 &114007593792046316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff5b1f29c145ba40ad0a1e81ea28d55, type: 3}
+  m_Name: VP_Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1448, y: 296}
+  ports:
+    keys:
+    - answers
+    - input
+    - output
+    values:
+    - hasHandle: 1
+      _fieldName: answers
+      _node: {fileID: 114007593792046316}
+      _typeQualifiedName: System.Collections.Generic.List`1[[VirtualPhenix.Dialog.VP_Dialog+Answer,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: 114007593792046316}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 114822283277742646}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: 114007593792046316}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  m_isCurrent: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: 114822283277742646}
+  output: {fileID: 0}
+  m_ID: 3j7TWBJLKtD
+  dialog: {fileID: 0}
+  characterData: {fileID: 11400000, guid: 05cd0c0a78644894f8653bff197d8c87, type: 2}
+  dialogType: 0
+  m_positionData: {fileID: 11400000, guid: bd104f52a7de4b64d895ff5243d7c19d, type: 2}
+  m_useLocalization: 0
+  m_showDirectly: 0
+  m_canSkipWithInput: 1
+  m_fadeInOut: 1
+  m_textSpeed: 1
+  m_fadeSpeed: 2
+  keyT: {fileID: 11400000, guid: f4a9ccbfad3a99846b025f449e4d6ae0, type: 2}
+  key: Now just specific character listens to this
+  clip: {fileID: 0}
+  waitForAudioEnd: 0
+  waitForInput: 1
+  m_Automatic: 1
+  color: {r: 0, g: 0, b: 0, a: 1}
+  font: {fileID: 11400000, guid: 55cccf5a7d197464d8c94f5d71dc614b, type: 2}
+  m_fontSize: 45
+  m_overideFontSize: 1
+  answers: []
+  m_answerAtTheSameTime: 1
+  hideAfter: 0
+--- !u!114 &114822283277742646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff5b1f29c145ba40ad0a1e81ea28d55, type: 3}
+  m_Name: VP_Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1036.6023, y: 305.33456}
+  ports:
+    keys:
+    - answers
+    - input
+    - output
+    values:
+    - hasHandle: 1
+      _fieldName: answers
+      _node: {fileID: 114822283277742646}
+      _typeQualifiedName: System.Collections.Generic.List`1[[VirtualPhenix.Dialog.VP_Dialog+Answer,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: 114822283277742646}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 114955701731707656}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: 114822283277742646}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 114007593792046316}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  m_isCurrent: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: 114955701731707656}
+  output: {fileID: 114007593792046316}
+  m_ID: aYpsEfiKVFR
+  dialog: {fileID: 0}
+  characterData: {fileID: 0}
+  dialogType: 0
+  m_positionData: {fileID: 11400000, guid: bd104f52a7de4b64d895ff5243d7c19d, type: 2}
+  m_useLocalization: 0
+  m_showDirectly: 0
+  m_canSkipWithInput: 1
+  m_fadeInOut: 1
+  m_textSpeed: 1
+  m_fadeSpeed: 2
+  keyT: {fileID: 11400000, guid: f4a9ccbfad3a99846b025f449e4d6ae0, type: 2}
+  key: Everyone can listen to this
+  clip: {fileID: 0}
+  waitForAudioEnd: 0
+  waitForInput: 1
+  m_Automatic: 1
+  color: {r: 0, g: 0, b: 0, a: 1}
+  font: {fileID: 11400000, guid: 55cccf5a7d197464d8c94f5d71dc614b, type: 2}
+  m_fontSize: 45
+  m_overideFontSize: 1
+  answers: []
+  m_answerAtTheSameTime: 1
+  hideAfter: 0
+--- !u!114 &114955701731707656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afc22d36dc207146ab8f7eaa390222e, type: 3}
+  m_Name: VP_Dialog Init Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 632, y: 232}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: 114955701731707656}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: 114955701731707656}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 114822283277742646}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  m_isCurrent: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: 0}
+  output: {fileID: 114822283277742646}
+  m_ID: aJXRvVpYUdz
+  onStart: 1
+  startEvent: 
+  keyT: {fileID: 11400000, guid: 008419569e9f5264a8610f0b2a5ba3cd, type: 2}

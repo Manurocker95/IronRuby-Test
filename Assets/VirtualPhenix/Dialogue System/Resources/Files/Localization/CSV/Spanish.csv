@@ -1,0 +1,107 @@
+﻿loadingText,Cargando...
+demoScene1text1,Este texto solo tiene fondo predeterminado
+demoScene1text2,Este texto tiene fondo predeterminado y nombre de personaje
+demoScene1text3,Este texto tiene imagen de personaje.
+demoScene1text4,Este texto tiene imagen de personaje y nombre.
+YES,SÍ
+NO,NO
+Yes,Sí
+No,No
+no,no
+yes,sí
+Earned Coins,Ganadas
+Your Coins,Ahorradas 
+Accept,Aceptar
+Advertising,Anuncios
+"ClickToConsent","\nSeleccione el botón de abajo para confirmar su consentimiento."
+Data Privacy Consent,Consentimiento de Datos
+"AnalyticsText","Usamos Unity Analytics para recolectar información analítica y con ella mejorar nuestra aplicación.".
+"Predisclaimer","¡Gracias por descargar {0}!<br><br>Virtual Phenix Games da mucha importancia a la privacidad.<br><br>Por ello, queremos informarle sobre el tipo de datos que necesitamos que consienta para ser compartida y ser recolectada antes de empezar a jugar.\n";
+Disclaimer,"\nNuestra app recoge información sobre su dispositivo para servicios de anuncios y analíticas. Seguimos estríctamente nuestra <a href={0}>Política de Privacidad</a> para acceder y procesar su información.\n\nEl consentimiento es opcional. \nSin embargo, algunas características del juego no funcionarán correctamente si no las acepta."
+AdsToggleOn,"¡Recibirás anuncios relevantes! Nuestros proveedores recogerán datos y usarán un identificador único en su dispositivo. Puede revisar sus políticas en: <a href={0}>AdMob</a> and <a href={1}>Unity Ads</a>."
+AdsToggleOff,"Nuestros proveedores recogerán datos y usarán un identificador único en su dispositivo para mostrar anuncios relevantes. Puede revisar sus políticas en: <a href={0}>AdMob</a> y <a href={1}>Unity Ads</a>."
+Accept Privacy Policy,Aceptar Política de Privacidad
+AgeToggleOnDesc,"Certifico que tengo más de 16 años, he leído y entiendo y acepto la política de privacidad de Virtual Phenix Games."
+AgeToggleOffDesc,"Certifico que tengo más de 16 años, he leído y entiendo y acepto la política de privacidad de Virtual Phenix Games."
+"Analytics*","Analíticas"
+Level,Nivel
+PLAY,JUGAR
+SUPPORT,AYUDA
+WATCH ADS,VER ANUNCIO POR MONEDAS
+BUY COINS,COMPRAR MONEDAS
+BACK,ATRÁS
+RATE US,PUNTÚA LA APP
+FOLLOW US,SÍGUENOS
+MORE GAMES,MÁS JUEGOS
+"You have not enough coins to play.","No tienes Monedas para jugar."
+"Do you want to watch an ad to gain coins?","¿Quieres ver un anuncio y ganar algunas Monedas?"
+"Board clear!","¡Tablero desbloqueado!"
+"You receive {0} Coins!","¡Recibes {0} Monedas!"
+"Advanced to Game Lv.{0}!","¡Avanzas al Nv.{0}!"
+"Oh no! You get 0 Coins!","¡Oh, no! ¡Un coco! ¡Recibes 0 Monedas!"
+"Dropped to Game Lv. {0}!","¡Bajaste al Nv. {0}!"
+"Your <color=red>Coin Case</color> has been filled.","Tu <color=red>monedero</color> está lleno."
+"You won't be able to gain more, but you can still play.","No podrás ganar más, pero podrás seguir jugando."
+"Service Unavailable","Servicio no disponible"
+"Please check your internet connection.","Por favor, compruebe su conexión a Internet."
+"GRAB YOUR REWARD!","¡RECOGE TU RECOMPENSA!"
+"REWARD IN ","RECOMPENSA EN "
+"Watch Ad","Ver Anuncio"
+"You get an extra reward of {0} coins!","¡Consigues bonificación extra de {0} Monedas!"
+"100coins",100 Monedas
+"300coins",300 Monedas
+"500coins",500 Monedas
+"1000coins",1000 Monedas
+TutorialText,"Haz tap en las celdas para descubrir su valor. Cada levantamiento cuesta dos Monedas. ¡Debes encontrar los 2 y 3 sin tocar los cocos! ¡Los cocos explotan y te harán perder la partida!<br><br>En cada columna y fila encontrarás el número de cocos que hay en esa fila o columna (Número grande) y la suma de monedas que hay repartidas en el resto de cartas de la fila o columna (número pequeño).<br><br>Ejemplo: 5 celdas, 2 bombas y 3 monedas = 3 monedas for 3 celdas (5 - 2) = 1, 1, 1. No hay 2 ni 3.<br><br>Comprueba las correspondientes celdas o columnas para saber dónde puede haber un 2 o un 3 fijandote en la suma de puntos y el número de bombas."
+"Thanks to your purchase, you receive {0} coins.","Gracias a tu compra recibes {0} Monedas."
+"You have no coins for a tip!","¡No tienes dinero para una pista!"
+"Do you want to spend {0} coins for a tip?","¿Quieres gastar {0} Monedas en una pista?"
+Tip,Pista
+"cocoinfotext","ENCUENTRA LOS [2] Y [3]. EVITA LOS COCOS"
+"Do you want go back to the menu?","¿Quieres volver al menú?"
+"You gained {0} coins.","Ganaste {0} Monedas."
+"Please, connect your device to Internet or buy some coins.","Por favor, conecta tu dispositivo a Internet o compra algunas monedas."
+"WantExit","¿Quieres salir del juego?"
+"As this is the PC version, you receive {0} coins.","Como es la versión de PC, recibes {0} Monedas."
+"You gained <color=red>{0}</color> coins!","¡Ganaste <color=red>{0}</color> monedas!"
+"Do you really want to exit?","¿Seguro que quieres salir?"
+"Want to go back to menu?","¿Quieres volver al menú?"
+"Sure","¡Claro!"
+"Nope","¡Nope!"
+"WARNING","PELIGRO"
+"Warning","Peligro"
+"Find the exploding spot!","¡Explota las dianas!"
+"SELECT","SELECCIONAR"
+"SELECTION_INFO","¡Haz Swipe para seleccionar el planeta!"
+"FREE","GRATIS"
+"Want to know more about Virtual Phenix Games?","¿Quiere saber más de Virtual Phenix Games?"
+"Earth","La Tierra"
+"Smiley","Sonrisita"
+"Eye","Ojo"
+"Dragon","Dragón"
+"Pool","Billar"
+"Samus","Samus"
+"Pictmon","Pictmon"
+"Bubble","Pompa"
+"Floor is Lava","El Suelo es Lava"
+"Nadal. R","Nadal. R"
+"The Rock","La Roca"
+"The Stone","La Piedra"
+"Premium","De Lujo"
+"Master Chief","Jefe Maestro"
+"Sphere of the Dragon","Esfera de Dragón"
+"VIBRATION","VIBRACIÓN"
+"BGM","MÚSICA"
+"SFX","EFECTOS"
+"You obtained {0} coins!","¡Ganaste {0} Monedas!"
+"SHOP_TITLE","RECARGAR"
+"You purchased {0} coins!","¡Has comprado {0} Monedas!"
+"OPTIONS","OPCIONES"
+"NO_ADS","SIN ANUNCIOS"
+"SKINS","PERSONALIZACIÓN"
+"RECHARGE","TIENDA"
+"Swipe and focus on <sprite=1> to destroy the planet. <sprite=2> give you coins. Avoid <sprite=3>",Haz Swipe y centrate en <sprite=1> para destruir el planeta. <sprite=2> te da monedas. Evita <sprite=3>.
+"Ads Banner won't show up!","¡Ahora ganarás monedas sin ver anuncios!"
+"Do you want to watch an ad to continue playing?","¿Quieres ver un anuncio para continuar jugando?"
+"Thanks to your purchase, you can continue playing!","¡Gracias a tu compra puedes seguir jugando!"
+"You don't have enough coins to purchase that planet!","¡No tienes suficientes <sprite=0> Monedas para comprar ese planeta!"

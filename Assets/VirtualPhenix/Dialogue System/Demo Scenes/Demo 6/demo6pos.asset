@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac4f1c4781d98d04a84e9efd2143b796, type: 3}
+  m_Name: demo6pos
+  m_EditorClassIdentifier: 
+  m_defaultPosition: {x: 0, y: 0}
+  m_position: {x: 0, y: 0}
+  m_offset: {x: 0, y: 0}
+  m_useDefaultPosition: 0
+  m_useGameObjectPosition: 0
+  m_useGameObjectName: 
+  m_setBGPosition: 0
+  m_bgTopBottom: {x: 0, y: 0}
+  m_bgLeftRight: {x: 0, y: 0}
+  m_arrowIconPosition: {x: 0, y: 0}
+  m_iconOffset: {x: 0, y: 0}
+  m_setTextPosition: 0
+  m_textTopBottomMugshot: {x: 197.6, y: 84.6}
+  m_textLeftRightMugshot: {x: 136.45, y: 566.85}
+  m_textTopBottomRegular: {x: 197.6, y: 84.6}
+  m_textLeftRightRegular: {x: 136.45, y: 379.1}
+  m_optionGroupPosition: {x: -117, y: 30}

@@ -1,0 +1,1010 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6671022569049269436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff5b1f29c145ba40ad0a1e81ea28d55, type: 3}
+  m_Name: VP_Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -808, y: 296}
+  ports:
+    keys:
+    - answers
+    - input
+    - output
+    values:
+    - hasHandle: 1
+      _fieldName: answers
+      _node: {fileID: -6671022569049269436}
+      _typeQualifiedName: System.Collections.Generic.List`1[[VirtualPhenix.Dialog.VP_Dialog+Answer,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: -6671022569049269436}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -6024964691467221526}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: -6671022569049269436}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 1642715965957898586}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  m_isCurrent: 0
+  m_renamed: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: -6024964691467221526}
+  output: {fileID: 1642715965957898586}
+  m_ID: sQGaNUqYPrH
+  m_hideInfoInGraph: 0
+  dialog: {fileID: 0}
+  characterData: {fileID: 0}
+  dialogType: 0
+  m_positionData: {fileID: 11400000, guid: bd104f52a7de4b64d895ff5243d7c19d, type: 2}
+  m_useLocalization: 0
+  m_showDirectly: 0
+  m_canSkipWithInput: 1
+  m_fadeInOut: 1
+  m_textSpeed: 1
+  m_fadeSpeed: 0.5
+  keyT: {fileID: 11400000, guid: f4a9ccbfad3a99846b025f449e4d6ae0, type: 2}
+  key: 'Hello, this is an example of interaction. '
+  clip: {fileID: 0}
+  waitForAudioEnd: 0
+  waitForInput: 1
+  m_Automatic: 1
+  color: {r: 0, g: 0, b: 0, a: 1}
+  font: {fileID: 11400000, guid: 55cccf5a7d197464d8c94f5d71dc614b, type: 2}
+  m_fontSize: 45
+  m_overideFontSize: 1
+  m_timeForAnswer: 5
+  m_registerDialog: 1
+  m_soundOnContinue: 1
+  answers: []
+  m_answerAtTheSameTime: 1
+  m_autoAnswer: -1
+  hideAfter: 0
+--- !u!114 &-6024964691467221526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afc22d36dc207146ab8f7eaa390222e, type: 3}
+  m_Name: VP_Dialog Init Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1192, y: 216}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: -6024964691467221526}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: -6024964691467221526}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -6671022569049269436}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  m_isCurrent: 0
+  m_renamed: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: 0}
+  output: {fileID: -6671022569049269436}
+  m_ID: NjPG2AmyuVe
+  onStart: 0
+  startEvent: demoNPC
+  keyT: {fileID: 11400000, guid: 008419569e9f5264a8610f0b2a5ba3cd, type: 2}
+--- !u!114 &-5002539920422747109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 944f097ebd3e75c4cbee2f2c3836d0ec, type: 3}
+  m_Name: VP_Dialog Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 872, y: -24}
+  ports:
+    keys:
+    - input
+    - output
+    - triggerStrings 0
+    values:
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: -5002539920422747109}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -3283755717652773181}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: -5002539920422747109}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - hasHandle: 0
+      _fieldName: triggerStrings 0
+      _node: {fileID: -5002539920422747109}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  m_isCurrent: 0
+  m_renamed: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: -3283755717652773181}
+  output: {fileID: 0}
+  m_ID: 0x4q9GpsIJD
+  trigger: []
+  triggerStrings:
+  - EndTutorial
+  m_triggerTime: 0
+  m_character: {fileID: 0}
+  m_choice: -1
+  m_sameNumberChosen: 1
+--- !u!114 &-3283755717652773181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff5b1f29c145ba40ad0a1e81ea28d55, type: 3}
+  m_Name: VP_Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 392, y: -40}
+  ports:
+    keys:
+    - answers
+    - input
+    - output
+    values:
+    - hasHandle: 1
+      _fieldName: answers
+      _node: {fileID: -3283755717652773181}
+      _typeQualifiedName: System.Collections.Generic.List`1[[VirtualPhenix.Dialog.VP_Dialog+Answer,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: -3283755717652773181}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 5755337468490633214}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: -3283755717652773181}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -5002539920422747109}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  m_isCurrent: 1
+  m_renamed: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: 5755337468490633214}
+  output: {fileID: -5002539920422747109}
+  m_ID: qCjyp0iQm2Y
+  m_hideInfoInGraph: 0
+  dialog: {fileID: 0}
+  characterData: {fileID: 0}
+  dialogType: 0
+  m_positionData: {fileID: 11400000, guid: bd104f52a7de4b64d895ff5243d7c19d, type: 2}
+  m_useLocalization: 0
+  m_showDirectly: 0
+  m_canSkipWithInput: 1
+  m_fadeInOut: 1
+  m_textSpeed: 1
+  m_fadeSpeed: 0.5
+  keyT: {fileID: 11400000, guid: f4a9ccbfad3a99846b025f449e4d6ae0, type: 2}
+  key: Use <color=red>WASD</color> to move.
+  clip: {fileID: 0}
+  waitForAudioEnd: 0
+  waitForInput: 1
+  m_Automatic: 1
+  color: {r: 0, g: 0, b: 0, a: 1}
+  font: {fileID: 11400000, guid: 55cccf5a7d197464d8c94f5d71dc614b, type: 2}
+  m_fontSize: 45
+  m_overideFontSize: 1
+  m_timeForAnswer: 5
+  m_registerDialog: 1
+  m_soundOnContinue: 1
+  answers: []
+  m_answerAtTheSameTime: 1
+  m_autoAnswer: -1
+  hideAfter: 0
+--- !u!114 &-1710856445652811553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff5b1f29c145ba40ad0a1e81ea28d55, type: 3}
+  m_Name: VP_Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 232, y: 408}
+  ports:
+    keys:
+    - answers
+    - input
+    - output
+    values:
+    - hasHandle: 1
+      _fieldName: answers
+      _node: {fileID: -1710856445652811553}
+      _typeQualifiedName: System.Collections.Generic.List`1[[VirtualPhenix.Dialog.VP_Dialog+Answer,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: -1710856445652811553}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: isTrue
+        node: {fileID: 1642715965957898586}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: -1710856445652811553}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  m_isCurrent: 0
+  m_renamed: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: 1642715965957898586}
+  output: {fileID: 0}
+  m_ID: DbUcXFty4JW
+  m_hideInfoInGraph: 1
+  dialog: {fileID: 0}
+  characterData: {fileID: 0}
+  dialogType: 0
+  m_positionData: {fileID: 11400000, guid: bd104f52a7de4b64d895ff5243d7c19d, type: 2}
+  m_useLocalization: 0
+  m_showDirectly: 0
+  m_canSkipWithInput: 1
+  m_fadeInOut: 1
+  m_textSpeed: 1
+  m_fadeSpeed: 0.5
+  keyT: {fileID: 11400000, guid: f4a9ccbfad3a99846b025f449e4d6ae0, type: 2}
+  key: Wow! you pressed that button!
+  clip: {fileID: 0}
+  waitForAudioEnd: 0
+  waitForInput: 1
+  m_Automatic: 1
+  color: {r: 0, g: 0, b: 0, a: 1}
+  font: {fileID: 11400000, guid: 55cccf5a7d197464d8c94f5d71dc614b, type: 2}
+  m_fontSize: 45
+  m_overideFontSize: 1
+  m_timeForAnswer: 5
+  m_registerDialog: 1
+  m_soundOnContinue: 1
+  answers: []
+  m_answerAtTheSameTime: 1
+  m_autoAnswer: -1
+  hideAfter: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f07413b313a444eb0b53a97adc5bb0, type: 3}
+  m_Name: Demo8
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 8112257404603951130}
+  - {fileID: -3283755717652773181}
+  - {fileID: 5755337468490633214}
+  - {fileID: 6826731335889931851}
+  - {fileID: -5002539920422747109}
+  - {fileID: -6671022569049269436}
+  - {fileID: -6024964691467221526}
+  - {fileID: 1642715965957898586}
+  - {fileID: 3165645309215781033}
+  - {fileID: -1710856445652811553}
+  windowName: Dialog Editor
+  m_chart: {fileID: 0}
+  m_dialogPreset: {fileID: 0}
+  m_graphVariables:
+    m_boolVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: 
+    m_intVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: 
+    m_floatVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: []
+    m_doubleVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: []
+    m_stringVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: []
+    m_gameObjectVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: []
+    m_unityObjectVariables:
+      reorderableList:
+        canAdd: 1
+        canRemove: 1
+        draggable: 1
+        expandable: 1
+        multipleSelection: 1
+        isExpanded: 0
+        label:
+          m_Text: Keys
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        headerHeight: 18
+        footerHeight: 13
+        slideEasing: 0.15
+        verticalSpacing: 2
+        showDefaultBackground: 1
+        elementDisplayType: 0
+        elementNameProperty: 
+        elementNameOverride: 
+        elementIcon: {fileID: 0}
+      reqReferences: {fileID: 0}
+      isExpanded: 0
+      _keyValues: []
+      _keys: []
+      _values: []
+--- !u!114 &1642715965957898586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b920cb571d25541afad0a6e2962176, type: 3}
+  m_Name: VP_Dialog Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -360, y: 360}
+  ports:
+    keys:
+    - isTrue
+    - isFalse
+    - input
+    - output
+    - conditions 0
+    values:
+    - hasHandle: 1
+      _fieldName: isTrue
+      _node: {fileID: 1642715965957898586}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -1710856445652811553}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: isFalse
+      _node: {fileID: 1642715965957898586}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 3165645309215781033}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: 1642715965957898586}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: -6671022569049269436}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: 1642715965957898586}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - hasHandle: 0
+      _fieldName: conditions 0
+      _node: {fileID: 1642715965957898586}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  m_isCurrent: 0
+  m_renamed: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: -6671022569049269436}
+  output: {fileID: -1710856445652811553}
+  m_ID: tMFfo2SOspa
+  m_variableComparison: 0
+  m_variableAndConditionComparison: 0
+  graphVariableList: []
+  globalVariableList:
+  - VarType: 0
+    varName: buttonPressed
+    boolvalue: 1
+    intvalue: 0
+    floatvalue: 0
+    doublevalue: 0
+    stringvalue: 
+    gameobjectvalue: {fileID: 0}
+    unityobjectvalue: {fileID: 0}
+    variablecomparison: 0
+  isTrue: {fileID: -1710856445652811553}
+  isFalse: {fileID: 3165645309215781033}
+--- !u!114 &3165645309215781033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff5b1f29c145ba40ad0a1e81ea28d55, type: 3}
+  m_Name: VP_Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 248, y: 664}
+  ports:
+    keys:
+    - answers
+    - input
+    - output
+    values:
+    - hasHandle: 1
+      _fieldName: answers
+      _node: {fileID: 3165645309215781033}
+      _typeQualifiedName: System.Collections.Generic.List`1[[VirtualPhenix.Dialog.VP_Dialog+Answer,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: 3165645309215781033}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: isFalse
+        node: {fileID: 1642715965957898586}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: 3165645309215781033}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  m_isCurrent: 0
+  m_renamed: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: 1642715965957898586}
+  output: {fileID: 0}
+  m_ID: Mx8m05PBnED
+  m_hideInfoInGraph: 1
+  dialog: {fileID: 0}
+  characterData: {fileID: 0}
+  dialogType: 0
+  m_positionData: {fileID: 11400000, guid: bd104f52a7de4b64d895ff5243d7c19d, type: 2}
+  m_useLocalization: 0
+  m_showDirectly: 0
+  m_canSkipWithInput: 1
+  m_fadeInOut: 1
+  m_textSpeed: 1
+  m_fadeSpeed: 0.5
+  keyT: {fileID: 11400000, guid: f4a9ccbfad3a99846b025f449e4d6ae0, type: 2}
+  key: If you press that button, my dialogue will change.
+  clip: {fileID: 0}
+  waitForAudioEnd: 0
+  waitForInput: 1
+  m_Automatic: 1
+  color: {r: 0, g: 0, b: 0, a: 1}
+  font: {fileID: 11400000, guid: 55cccf5a7d197464d8c94f5d71dc614b, type: 2}
+  m_fontSize: 45
+  m_overideFontSize: 1
+  m_timeForAnswer: 5
+  m_registerDialog: 1
+  m_soundOnContinue: 1
+  answers: []
+  m_answerAtTheSameTime: 1
+  m_autoAnswer: -1
+  hideAfter: 0
+--- !u!114 &5755337468490633214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff5b1f29c145ba40ad0a1e81ea28d55, type: 3}
+  m_Name: VP_Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -72, y: -40}
+  ports:
+    keys:
+    - answers
+    - input
+    - output
+    values:
+    - hasHandle: 1
+      _fieldName: answers
+      _node: {fileID: 5755337468490633214}
+      _typeQualifiedName: System.Collections.Generic.List`1[[VirtualPhenix.Dialog.VP_Dialog+Answer,
+        Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: 5755337468490633214}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 6826731335889931851}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: 5755337468490633214}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: -3283755717652773181}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  m_isCurrent: 0
+  m_renamed: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: 6826731335889931851}
+  output: {fileID: -3283755717652773181}
+  m_ID: U5aEog9RXDF
+  m_hideInfoInGraph: 0
+  dialog: {fileID: 0}
+  characterData: {fileID: 0}
+  dialogType: 0
+  m_positionData: {fileID: 11400000, guid: bd104f52a7de4b64d895ff5243d7c19d, type: 2}
+  m_useLocalization: 0
+  m_showDirectly: 0
+  m_canSkipWithInput: 1
+  m_fadeInOut: 1
+  m_textSpeed: 1
+  m_fadeSpeed: 0.5
+  keyT: {fileID: 11400000, guid: f4a9ccbfad3a99846b025f449e4d6ae0, type: 2}
+  key: You can pass through dialogs and interact with other objects with <color=red>Space</color>.
+  clip: {fileID: 0}
+  waitForAudioEnd: 0
+  waitForInput: 1
+  m_Automatic: 1
+  color: {r: 0, g: 0, b: 0, a: 1}
+  font: {fileID: 11400000, guid: 55cccf5a7d197464d8c94f5d71dc614b, type: 2}
+  m_fontSize: 45
+  m_overideFontSize: 1
+  m_timeForAnswer: 5
+  m_registerDialog: 1
+  m_soundOnContinue: 1
+  answers: []
+  m_answerAtTheSameTime: 1
+  m_autoAnswer: -1
+  hideAfter: 0
+--- !u!114 &6826731335889931851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 944f097ebd3e75c4cbee2f2c3836d0ec, type: 3}
+  m_Name: VP_Dialog Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -552, y: -24}
+  ports:
+    keys:
+    - input
+    - output
+    - triggerStrings 0
+    values:
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: 6826731335889931851}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: output
+        node: {fileID: 8112257404603951130}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: 6826731335889931851}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 5755337468490633214}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - hasHandle: 0
+      _fieldName: triggerStrings 0
+      _node: {fileID: 6826731335889931851}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  m_isCurrent: 0
+  m_renamed: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: 8112257404603951130}
+  output: {fileID: 5755337468490633214}
+  m_ID: 94r87NUEGsm
+  trigger: []
+  triggerStrings:
+  - InitTutorial
+  m_triggerTime: 0
+  m_character: {fileID: 0}
+  m_choice: -1
+  m_sameNumberChosen: 1
+--- !u!114 &8112257404603951130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4afc22d36dc207146ab8f7eaa390222e, type: 3}
+  m_Name: VP_Dialog Init Event
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -936, y: -56}
+  ports:
+    keys:
+    - input
+    - output
+    values:
+    - hasHandle: 1
+      _fieldName: input
+      _node: {fileID: 8112257404603951130}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 1
+      _dynamic: 0
+    - hasHandle: 1
+      _fieldName: output
+      _node: {fileID: 8112257404603951130}
+      _typeQualifiedName: VirtualPhenix.Dialog.VP_DialogBaseNode, Assembly-CSharp,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: input
+        node: {fileID: 6826731335889931851}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  m_isCurrent: 0
+  m_renamed: 0
+  overrideNodeColor: {r: 0, g: 0.83137256, b: 0.011764706, a: 1}
+  overrideColor: 0
+  input: {fileID: 0}
+  output: {fileID: 6826731335889931851}
+  m_ID: E2YqAkMT1pN
+  onStart: 1
+  startEvent: 
+  keyT: {fileID: 11400000, guid: 008419569e9f5264a8610f0b2a5ba3cd, type: 2}

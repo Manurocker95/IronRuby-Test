@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2527f9482ea537c40b909aff30f1fe24, type: 3}
+  m_Name: TellTaleGraphPreset
+  m_EditorClassIdentifier: 
+  m_dialogueType: 5
+  m_characterData: {fileID: 0}
+  m_positionData: {fileID: 11400000, guid: bd104f52a7de4b64d895ff5243d7c19d, type: 2}
+  m_localization: 0
+  m_waitForInput: 0
+  m_canSkipWithInput: 1
+  m_waitForAudioEnd: 1
+  m_font: {fileID: 11400000, guid: 55cccf5a7d197464d8c94f5d71dc614b, type: 2}
+  m_fontSize: 45
+  m_textColor: {r: 1, g: 1, b: 1, a: 1}
+  m_showDirectly: 0
+  m_fadeInOut: 1
+  m_textSpeed: 1
+  m_fadeSpeed: 2
+  m_timeForAnswer: 5
+  m_registerDialog: 1
+  m_soundOnContinue: 0

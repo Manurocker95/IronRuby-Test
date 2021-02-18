@@ -1,0 +1,78 @@
+﻿loadingText,Loading...
+demoScene1text1,This text has only default background
+demoScene1text2,This text has default background and character name
+demoScene1text3,This text has mugshot
+demoScene1text4,This text has mugshot and character name
+YES,YES
+NO,NO
+Yes,Yes
+No,No
+no,no
+yes,yes
+Earned Coins,Earned Coins,
+Your Coins,Your Coins
+Accept,Accept
+Advertising,Advertising
+"ClickToConsent","\nClick the below button to confirm your consent."
+Data Privacy Consent,Data Privacy Consent
+"AnalyticsText","We use Unity Analytics service to collect certain analytical information necessary for us to improve this app."
+"Predisclaimer","Thank you for downloading {0}! \n\nVirtual Phenix Games gives importance to your privacy. \nTherefore, we want to inform you about what kind of data you need to consent to be shared and\nto be collected before you start playing the game.\n";
+"Disclaimer","\nThis app collects certain information about your use of our app that we would like your permission to use for advertising purposes. We strictly follow our <a href={0}>Privacy Policy</a> to access and process your information.\n\nConsent is optional, and you may use the app without granting consent. \nPlease understand that some features may not function properly if you deny our access."
+"AdsToggleOn","You will receive relevant ads! Our ad providers will collect data and use a unique identifier on your device. You can review their policies: <a href={0}>AdMob</a> and <a href={1}>Unity Ads</a>."
+"AdsToggleOff","Our ad providers will collect data and use a unique identifier on your device to show you relevant ads. Here're their policies: <a href={0}>AdMob</a> and <a href={1}>Unity Ads</a>."
+Accept Privacy Policy,Accept Privacy Policy
+AgeToggleOnDesc,"I certify that I'm over the age of 16, have read,<br> understood and accepted Virtual Phenix Games's Privacy Policy."
+AgeToggleOffDesc,"I certify that I'm over the age of 16, have read,<br> understood and accepted Virtual Phenix Games's Privacy Policy."
+"Analytics*","Analytics"
+Level,Level
+PLAY,PLAY
+SUPPORT,SUPPORT
+WATCH ADS,WATCH AD FOR COINS
+BUY COINS,BUY COINS
+BACK,BACK
+RATE US,RATE US
+FOLLOW US,FOLLOW US
+MORE GAMES,MORE GAMES
+"You have not enough coins to play.","You have not enough coins to play."
+"Do you want to watch an ad to gain coins?","Do you want to watch an ad to gain coins?"
+"Board clear!","Board clear!"
+"You receive {0} Coins!","You receive {0} Coins!"
+"Advanced to Game Lv.{0}!","Advanced to Game Lv.{0}!"
+"Oh no! You get 0 Coins!","Oh, no! A coconut! You get 0 Coins!"
+"Dropped to Game Lv. {0}!","Dropped to Game Lv. {0}!"
+"Your <color=red>Coin Case</color> has been filled.","Your <color=red>Coin Case</color> has been filled."
+"You won't be able to gain more, but you can still play.","You won't be able to gain more, but you can still play."
+"Service Unavailable","Service Unavailable"
+"Please check your internet connection.","Please check your internet connection."
+"GRAB YOUR REWARD!","GRAB YOUR REWARD!"
+"REWARD IN ","REWARD IN "
+"Watch Ad","Watch Ad"
+"You get an extra reward of {0} coins!","You get an extra reward of {0} coins!"
+"100coins",100 Coins
+"300coins",300 Coins
+"500coins",500 Coins
+"1000coins",1000 Coins
+TutorialText,"Tap con the cells to discover a coin card for 2 coins each. You need to discover all the 2 and 3! Coconuts cards explode and it's game over. If you clear the board you win the earned coins!<br><br>In every column and row you can find the number of coconuts in the row or column (Big Number) and the number of coins in that row or column (small numbers).<br><br>Example: 5 cells, 2 bombs and 3 coins = 3 coins for 3 cells (5 cells - 2 bombs) = 1, 1, 1. No 2 or 3.<br><br>Check the columns and rows to see where and where not it is possible to have a 2 or 3."
+"Thanks to your purchase, you receive {0} coins.","Thanks to your purchase, you receive {0} coins."
+"You have no coins for a tip!","You have no coins for a tip!"
+"Do you want to spend {0} coins for a tip?","Do you want to spend {0} coins for a tip?"
+Tip,Tip
+"cocoinfotext","FLIP ALL [2] AND [3]. AVOID COCONUTS"
+"Do you want go back to the menu?","Do you want go back to the menu?"
+"You gained {0} coins.","You gained {0} coins."
+"Please, connect your device to Internet or buy some coins.","Please, connect your device to Internet or buy some coins."
+"WantExit","Do you want to exit the game?"
+"As this is the PC version, you receive {0} coins.","As this is the PC version, you receive {0} coins."
+"You gained <color=red>{0}</color> coins!","You gained <color=red>{0}</color> coins!"
+"Do you really want to exit?","Do you really want to exit?"
+"Want to go back to menu?","Want to go back to menu?"
+"Sure","Sure!"
+"Nope","Nope!"
+"Warning","Warning"
+"WARNING","WARNING"
+"Find the exploding spot!","Find the exploding spot!"
+"SELECT","SELECT"
+"SELECTION_INFO","Swipe to choose the planet!"
+"FREE","FREE"
+"Want to know more about Virtual Phenix Games?","Want to know more about Virtual Phenix Games?"
+"SHOP_TITLE","RECHARGE"

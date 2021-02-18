@@ -1,0 +1,25 @@
+Free Assets required:
+
+- Text Mesh pro - Included (but need to add essential resources from Window > Text mesh pro > Essential resources)
+
+- Standard Assets (Unity Technologies) - Included:  https://assetstore.unity.com/packages/essentials/asset-packs/standard-assets-for-unity-2017-3-32351
+- Simple JSON (Markus G�bel - Bunny 83) - Included: https://wiki.unity3d.com/index.php/SimpleJSON
+
+
+
+Better quality:
+
+- Do Tween Pro (Because free one doesn't fade Text Mesh Pro): https://assetstore.unity.com/packages/tools/visual-scripting/dotween-pro-32416
+- Hierarchy Icon(COBO1990) - Included: https://forum.unity.com/threads/released-free-hierarchy-icon.521145/
+- Serializable Dictionary (Rotary Heart): https://assetstore.unity.com/packages/tools/utilities/serialized-dictionary-lite-110992
+
+
+Based (overwriting the core will break some functionality):
+
+- xNode (Thor Brigsted): https://assetstore.unity.com/packages/tools/visual-scripting/xnode-104276
+
+
+
+Support:
+
+- PlayMaker: https://assetstore.unity.com/packages/tools/visual-scripting/playmaker-368
